@@ -1,17 +1,15 @@
 package Datte_ExcerciseQ;
 
-import java.util.Calendar;
-import java.util.Date;
-import java.util.Scanner;
-
 public class Datte_ExcQ3 {
-	
+
 	public static void main(String[] args) {
-		
-		String StartDate = new a[0];
-		}
-		
-		
+
+		String sd = args[0];
+		String ed = args[1];
+
+		System.out.println("Start Date = " + sd);
+		System.out.println("End Date = " + ed);
+
 	}
 
-
+}
