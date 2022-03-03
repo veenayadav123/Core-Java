@@ -1,0 +1,23 @@
+package Datte_ExcerciseQ;
+
+public class Datte_ExcQ3 {
+	
+	public static void main(String[] args) {
+		
+		String StartDate = args[0];
+		
+		String EndDate = args[1];
+		
+		if(StartDate.compareTo(EndDate) == -1) {
+			
+			System.out.println(EndDate);
+			
+		}else {
+			System.out.println("error");
+		}
+		}
+		
+		
+	}
+
+

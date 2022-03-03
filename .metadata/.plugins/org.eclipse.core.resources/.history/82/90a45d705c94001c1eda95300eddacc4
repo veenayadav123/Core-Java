@@ -1,0 +1,15 @@
+package OOP;
+
+public class Hello_GS {
+	public static void main(String[] args) {
+		
+		Test t= new Test();
+		t.SetName("Ram");
+		
+		String s=t.getName();
+		System.out.println(s);
+		
+		
+	}
+
+}

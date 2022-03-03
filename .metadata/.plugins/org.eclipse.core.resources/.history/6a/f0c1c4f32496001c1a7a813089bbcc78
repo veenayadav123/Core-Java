@@ -1,0 +1,13 @@
+package InheritncOverriding;
+
+public class TestMethdOvrloding {
+	
+	public static void main(String[] args) {
+		
+		MethodOverLoading m = new MethodOverLoading();
+		
+		m.
+		
+	}
+
+}

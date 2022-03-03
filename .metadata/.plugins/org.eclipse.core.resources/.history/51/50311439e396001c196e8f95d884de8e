@@ -1,0 +1,14 @@
+package OOP;
+
+public class abstract AbstractClass {
+	
+	String color = null;
+	int borderWidth = 0;
+	
+	public int getBorderWidth() {
+		
+		return borderWidth;
+	}
+	public abstract double area();
+		
+		}

@@ -1,0 +1,26 @@
+package Datte_ExcerciseQ;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Datte_ExcQ3 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc= new Scanner(System.in);
+		
+		int Sd=6 , Ed=5;
+		
+		if(Sd > Ed) {
+			
+			System.out.println("error");
+			
+		}
+		System.out.println(sc);
+		
+		
+	}
+
+}

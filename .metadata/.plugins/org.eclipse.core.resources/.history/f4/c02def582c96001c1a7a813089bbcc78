@@ -1,0 +1,31 @@
+package InheritncOverriding;
+
+public class MethodOverLoading {
+	
+	public static void main(String[] args) {
+		
+		String name;
+		int age ;
+		
+		}
+	public void student() {
+		
+		System.out.println("Method Overloading");
+	}
+	
+	public String student(String n) {
+		String name = "Trapti";
+		return name;
+	}
+	
+	public int student(int age) {
+		return age;
+		
+		
+	}
+	
+	
+	
+
+}
+

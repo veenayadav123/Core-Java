@@ -1,0 +1,13 @@
+package InheritncOverriding;
+
+public class RectArryargs extends ShapArryargs {
+	
+	double  length = 7;
+	double width = 5;
+
+	public double area() {
+
+		return length * width;
+	}
+
+}

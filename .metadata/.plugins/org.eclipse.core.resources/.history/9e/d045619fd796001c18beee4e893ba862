@@ -1,0 +1,13 @@
+package InheritncOverriding;
+
+public class RectangleArry extends ShapeArry {
+
+	int length = 7;
+	int width = 5;
+
+	public void calcArea() {
+
+		System.out.println(length * width);
+	}
+
+}

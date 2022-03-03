@@ -1,0 +1,11 @@
+package OOP;
+
+public class StudentData {
+	
+	private String fname=null;
+	private String lname=null;
+	private int eno=0;
+	
+	
+
+}

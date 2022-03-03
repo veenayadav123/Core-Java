@@ -1,0 +1,14 @@
+package OOP;
+
+public class Test {
+	private String name = null;
+
+	public String getName() {
+		return name;
+	}
+
+	public void SetName(String Name) {
+		this.name = name;
+	}
+
+}

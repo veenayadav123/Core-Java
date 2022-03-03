@@ -1,0 +1,13 @@
+package OOP;
+
+import java.util.Date;
+
+public class Person {
+	
+	private String name;
+	private Date dob;
+	private String address;
+	private static final double PI = 3.14;
+	
+	
+}

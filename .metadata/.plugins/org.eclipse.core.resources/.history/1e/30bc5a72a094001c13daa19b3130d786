@@ -1,0 +1,19 @@
+package Datte_ExcerciseQ;
+
+import java.util.Date;
+import java.util.Scanner;
+
+public class Datte_ExcQ3 {
+	
+	public static void main(String[] args) {
+		
+		String fifteenMin;
+		Date d = new Date(fifteenMin);
+		
+		System.out.println(d);
+		}
+		
+		
+	}
+
+

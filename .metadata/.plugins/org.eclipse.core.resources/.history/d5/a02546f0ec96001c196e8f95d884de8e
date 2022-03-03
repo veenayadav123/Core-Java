@@ -1,0 +1,6 @@
+package Interface;
+
+public class Businessman2 implements Richman,SocialWorker {
+	
+
+}

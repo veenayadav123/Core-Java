@@ -1,0 +1,20 @@
+package Datte_ExcerciseQ;
+
+public class Datte_ExcQ3 {
+	
+	public static void main(String[] args) {
+		
+		String 
+		
+		int Sd=6 , Ed=4;
+		
+		if(Sd > Ed) {
+			
+			System.out.println("error");
+			
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package OOP;
+
+public class Employee_GS {
+
+	public static void main(String[] args) {
+
+		EmpData_GS e1 = new EmpData_GS();
+		EmpData_GS e2 = new EmpData_GS();
+		String s;
+
+		e1.setName("Aman");
+		e1.setId(7861);
+		System.out.println("Employee Name is :" + e1.getName());
+		System.out.println("Employee Id is :" + e1.getId());
+
+		e2.setName("Raman");
+		e2.setId(7862);
+		System.out.println(e2.getName());
+		System.out.println(e2.getId());
+
+		s = e1.getName();
+		System.out.println("Hello" + s);
+
+	}
+
+}

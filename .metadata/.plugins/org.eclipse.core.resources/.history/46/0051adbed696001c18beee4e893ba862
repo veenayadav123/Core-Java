@@ -1,0 +1,13 @@
+package InheritncOverriding;
+
+public class ShapeArry {
+	
+	private String color = null;
+	private int bd = 0;
+	
+	public void area() {
+		
+		
+	}
+
+}

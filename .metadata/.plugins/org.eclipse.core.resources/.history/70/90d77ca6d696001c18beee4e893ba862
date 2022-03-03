@@ -1,0 +1,14 @@
+package InheritncOverriding;
+
+public class TriangleArry {
+	
+	int base = 15;
+	int hight = 7;
+	
+public void area() {
+		
+		System.out.println(1/2*base*hight);
+	}
+	
+
+}

@@ -1,0 +1,14 @@
+package Interface;
+
+public class Businessman1 implements Richman{
+	
+	private String name;
+	private String address;
+	
+	public void donation() {
+		
+		System.out.println("Giving Donation");
+	}
+	
+
+}

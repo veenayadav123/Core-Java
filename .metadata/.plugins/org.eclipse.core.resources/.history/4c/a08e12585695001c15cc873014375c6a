@@ -1,0 +1,38 @@
+package OOP;
+
+public class Person {
+	
+	private String name=null;
+	private String dob=null;
+	private String address=null;
+	
+	public void setName(String name) {
+		
+		this.name=name;
+	}
+	public String getName() {
+		
+		return name;
+	}
+	
+	public void setDob(String dob) {
+		
+		this.dob=dob;
+		
+	}
+	
+	public String getDob() {
+		
+		return dob;
+	}
+
+	public void setAddress(String address) {
+		
+		this.address=address;
+	}
+	
+	public String getAddress() {
+		
+		return address;
+	}
+}

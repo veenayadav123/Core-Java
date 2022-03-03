@@ -1,0 +1,19 @@
+package javabasics;
+
+public class PrimeNumber {
+
+	public static void main(Str[] args) {
+		int k = 7;
+		if (k % 2 == 0) {
+			System.out.println("Number is not Prime");
+		} else if (k % 3 == 0) {
+			System.out.println("Number is not Prime");
+		} else if (k % 5 == 0) {
+			System.out.println("Number is not Prime");
+		} else if (k % 7 == 0) {
+		} else {
+			System.out.println("Number is Prime");
+		}
+
+	}
+}

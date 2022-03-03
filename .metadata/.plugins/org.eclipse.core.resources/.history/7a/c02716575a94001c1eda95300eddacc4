@@ -1,0 +1,21 @@
+package OOP;
+
+public class Employee {
+	
+	public static void main(String[] args) {
+		
+		String s;
+		EmpData e1=new EmpData();
+		//EmpData e2 new EmpData();
+		
+		e1.setName("Aman");
+		e1.setId(7861);
+		
+		s=e1.getName();
+		
+		System.out.println(e1.getName());
+		System.out.println("Hello"+s);
+		
+	}
+
+}

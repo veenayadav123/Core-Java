@@ -1,0 +1,12 @@
+package Interface;
+
+public class Businessman3 implements SocialWorker{
+
+	@Override
+	public void helpToOthers() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

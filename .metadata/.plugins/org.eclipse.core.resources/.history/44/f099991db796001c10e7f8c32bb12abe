@@ -1,0 +1,18 @@
+package PolyMorp;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		
+		Person p = new Employee();
+		Person p1 = new Person();
+		Employee e = new Employee();
+		
+		p.showDetail();
+		p1.showDetail();
+		
+		e.showDetail();
+		
+	}
+
+}

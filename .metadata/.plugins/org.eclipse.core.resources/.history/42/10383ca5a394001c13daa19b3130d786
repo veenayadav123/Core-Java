@@ -1,0 +1,28 @@
+package Datte_ExcerciseQ;
+
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Scanner;
+
+public class Datte_ExcQ3 {
+	
+	public static void main(String[] args) {
+		
+		//String a=null;
+		
+		String StartDate = new  a[0];
+		String EndDate = new a[1];
+		
+		if(StartDate.compareTo(EndDate) ==-1) {
+			
+			System.out.println(EndDate);
+			
+		}else {
+			System.out.println("error");
+		}
+		}
+		
+		
+	}
+
+

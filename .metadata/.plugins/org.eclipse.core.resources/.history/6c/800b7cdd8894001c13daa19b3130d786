@@ -1,0 +1,36 @@
+package Datte_ExcerciseQ;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.util.Date;
+
+public class Datte_ExcQ3 {
+	
+	public static void main(String[] args) {
+		
+		//String Sd=args[0];
+		
+		//String Ed=args[1];
+		Date d = new Date();
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		String s = sdf.format(d);
+		System.out.println(s);
+
+		//LocalDate l= LocalDate.of();
+		LocalDate l1=LocalDate.now();
+		
+		//String s="Rays";
+		
+		int Sd=6 , Ed=5;
+		
+		if(Sd > Ed) {
+			
+			System.out.println("error");
+			
+		}
+		System.out.println(l1);
+		
+		
+	}
+
+}

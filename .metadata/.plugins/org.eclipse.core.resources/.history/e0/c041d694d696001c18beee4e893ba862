@@ -1,0 +1,13 @@
+package InheritncOverriding;
+
+public class CircleArry {
+	
+	
+	int radius=11;
+	
+public void area() {
+		
+		System.out.println(3.14*radius*radius);
+	}
+
+}

@@ -1,0 +1,13 @@
+package InheritncOverriding;
+
+public class TriangleArry extends ShapeArry {
+
+	int base = 15;
+	int hight = 8;
+
+	public double area() {
+
+		return(1 / 2 * base * hight);
+	}
+
+}
