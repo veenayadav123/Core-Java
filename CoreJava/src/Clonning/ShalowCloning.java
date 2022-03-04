@@ -22,7 +22,7 @@ public class ShalowCloning implements Cloneable {
 
 		ShalowCloning s2 = (ShalowCloning) s1.clone();
 
-		s2.balance = 20;
+	//	s2.balance = 20;
 
 		System.out.println(s1.balance);
 
