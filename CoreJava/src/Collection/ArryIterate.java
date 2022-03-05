@@ -41,7 +41,10 @@ public class ArryIterate {
 				it.remove();
 
 			}
+			v.add("Ram");
+			
 		}
+		
 		
 
 			System.out.println("i am removed" + v);
