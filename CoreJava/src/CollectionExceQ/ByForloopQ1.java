@@ -14,16 +14,19 @@ public class ByForloopQ1 {
 		l.add(859);
 		l.add("Mohan");
 
-		/*
-		 * for (Object object1 : l) { System.out.println(object1); }
-		 */
+		for (Object object1 : l) {
 
-		for (int i = 0; i < l.size(); i++) {
-
-			System.out.println(l.get(i));
+			System.out.println(object1);
 
 		}
 
+		/*
+		 * for (int i = 0; i < l.size(); i++) {
+		 * 
+		 * System.out.println(l.get(i));
+		 * 
+		 * }
+		 */
 	}
 
 }

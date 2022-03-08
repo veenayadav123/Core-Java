@@ -6,18 +6,25 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class Sorting {
-	
-	private static final String List = null;
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
+
+		ArrayList al = new ArrayList();
+
 		
-		List list = new ArrayList();
-		
-		Collections.sort((java.util.List<T>) list);
-		
-		Collections.sort((list,comparator);
-		
-		
+		  al.add(925); 
+		  al.add(512); 
+		  al.add(756); 
+		  al.add(612); 
+		  al.add(12);
+	
+		/*
+		 * al.add("Ram"); al.add("Rama"); al.add("Vanshika");
+		 */
+		Collections.sort(al);
+
+		System.out.println(al);
+
 	}
 
 }

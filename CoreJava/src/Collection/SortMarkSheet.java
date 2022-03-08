@@ -8,9 +8,9 @@ public class SortMarkSheet implements Comparable<SortMarkSheet> {
 
 	private int marks;
 
-	public SortMarkSheet(String r, String n, int m) {
+	public SortMarkSheet(String rollNo, String n, int m) {
 
-		this.rollNo = r;
+		this.rollNo = rollNo;
 
 		this.name = n;
 
@@ -18,23 +18,30 @@ public class SortMarkSheet implements Comparable<SortMarkSheet> {
 	}
 
 	
-	  @Override public int compareTo(SortMarkSheet m) {
+	  @Override public int compareTo(SortMarkSheet s) {
 	  
-	  return rollNo.compareTo(m.rollNo); }
+	  return rollNo.compareTo(s.rollNo); }
 	 
-	
-	/*
-	 * public int compareTo(SortMarkSheet n) {
+     /*
+	 * @Override public int compareTo(SortMarkSheet s) {
 	 * 
-	 * return name.compareTo(n.name); }
+	 * if (marks > s.marks) {
+	 * 
+	 * return 1; } else if (marks == s.marks) {
+	 * 
+	 * return 0;
+	 * 
+	 * } else {
+	 * 
+	 * return -1; }
+	 * 
+	 * }
 	 */
-
-
+	 
+	 
 	public String toString() {
 		return rollNo + " " + name + " " + marks;
 
 	}
-
-	
 
 }
