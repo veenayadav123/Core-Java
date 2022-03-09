@@ -7,25 +7,22 @@ public class Q8 {
 	public static void main(String[] args) throws Exception {
 
 		Stack stk = new Stack();
-		Object stk1 = new Stack();
+		Stack stk1 = new Stack();
 
 		for (char i = 'A'; i <= 'Z'; i++) {
 
-			stk.push(i);
-
+			Object o = stk.push(i);
 		}
-		
+
 		System.out.println(stk);
-		
-		while (0<stk.size()) {
-			
-			stk1 =stk.pop();
-			
+
+		for (int j = 0; j <26; j++) {
+
+			Object o = stk.pop();
+
+			stk1.push(o);
+
+			System.out.print(stk1.pop());
 		}
-
-
-		//System.out.println(stk);
-
 	}
-
 }
