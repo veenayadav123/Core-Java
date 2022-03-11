@@ -15,19 +15,19 @@ public class CopyconCmnd {
 		PrintWriter printWriter = new PrintWriter(writer);
 
 		InputStreamReader isReader = new InputStreamReader(System.in);
-		BufferedReader br = new BufferedReader(isReader);
+		BufferedReader in = new BufferedReader(isReader);
 
-		String line = br.readLine();
+		String line = in.readLine();
 
 		while (!line.equals("quit")) {
 
 			printWriter.print(line);
-			line = br.readLine();
+			line = in.readLine();
 
 		}
 		printWriter.close();
 		isReader.close();
-		
+
 		System.out.println("Inserted");
 	}
 }

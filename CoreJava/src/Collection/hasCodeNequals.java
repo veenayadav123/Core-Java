@@ -17,7 +17,6 @@ public class hasCodeNequals implements Comparable<hasCodeNequals> {
 		this.rollNo = rollNo;
 		this.name = name;
 		this.marks = marks;
-
 	}
 
 	public boolean equals(Object o) {
