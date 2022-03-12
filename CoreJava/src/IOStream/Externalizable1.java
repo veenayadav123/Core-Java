@@ -13,37 +13,44 @@ public class Externalizable1 implements Externalizable {
 	int chemistry = 0;
 	transient int temp = 0;
 
-	public Externalizable1() {
-
-	}
-
-	public Externalizable1(String name, int maths, int physics, int chemistry, int temp) {
-
-		this.name = name;
-		this.maths = maths;
-		this.physics = physics;
-		this.chemistry = chemistry;
-		this.temp = temp;
-	}
-
 	public String getName() {
 		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public int getMaths() {
 		return maths;
 	}
 
+	public void setMaths(int maths) {
+		this.maths = maths;
+	}
+
 	public int getPhysics() {
 		return physics;
+	}
+
+	public void setPhysics(int physics) {
+		this.physics = physics;
 	}
 
 	public int getChemistry() {
 		return chemistry;
 	}
 
+	public void setChemistry(int chemistry) {
+		this.chemistry = chemistry;
+	}
+
 	public int getTemp() {
 		return temp;
+	}
+
+	public void setTemp(int temp) {
+		this.temp = temp;
 	}
 
 	@Override

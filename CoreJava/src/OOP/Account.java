@@ -1,5 +1,7 @@
 package OOP;
 
+import Tread.RacingCondThread;
+
 public class Account {
 
 	private String number = null;
@@ -23,6 +25,22 @@ public class Account {
 	}
 	public void setBalance(double balance) {
 		this.balance = balance;
+	}
+	public void deposite(String name, int i) {
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		RacingCondThread u1 = new RacingCondThread("Ram");
+		RacingCondThread u2 = new RacingCondThread("Tanmay");
+		u1.start();
+		u2.start();
+	}
+	public void deposit(String name, int i) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	

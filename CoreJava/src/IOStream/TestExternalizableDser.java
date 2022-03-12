@@ -9,7 +9,7 @@ public class TestExternalizableDser {
 
 	public static void main(String[] args) throws Exception {
 
-		FileInputStream file = new FileInputStream("F:\\object5.ser");
+		FileInputStream file = new FileInputStream("F:\\object9.ser");
 
 		ObjectInputStream in = new ObjectInputStream(file);
 
