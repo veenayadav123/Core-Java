@@ -17,6 +17,7 @@ public class HashMap1 {
 		Integer k = (Integer)map.get("A123");
 		
 		System.out.println((i+j+k)/3);
+		
 	}
 
 }

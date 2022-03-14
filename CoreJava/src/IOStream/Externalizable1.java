@@ -6,12 +6,11 @@ import java.io.ObjectInput;
 import java.io.ObjectOutput;
 
 public class Externalizable1 implements Externalizable {
-
-	String name = null;
-	int maths = 0;
-	int physics = 0;
-	int chemistry = 0;
-	transient int temp = 0;
+	transient int temp;
+	String name;
+	int maths;
+	int physics;
+	int chemistry;
 
 	public String getName() {
 		return name;
@@ -68,9 +67,9 @@ public class Externalizable1 implements Externalizable {
 	public void writeExternal(ObjectOutput out) throws IOException {
 
 		out.writeObject(name);
-		out.writeObject(physics);
-		out.writeObject(chemistry);
-		out.writeObject(maths);
+		out.writeInt(physics);
+		out.writeInt(chemistry);
+		out.writeInt(maths);
 		out.writeInt(temp); // Serialize transient variable
 
 	}
