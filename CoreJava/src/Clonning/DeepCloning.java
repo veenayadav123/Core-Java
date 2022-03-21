@@ -24,8 +24,10 @@ public class DeepCloning implements Cloneable {
 
 	public static void main(String[] args) throws CloneNotSupportedException {
 
-		DeepCloning d1 = new DeepCloning("ram");
+		DeepCloning d1 = new DeepCloning("Ram");
 		DeepCloning d2 = (DeepCloning) d1.clone();
+		System.out.println(d2.name);
+		System.out.println(d2.account);
 
 		d2.name = "Shyam";
 
@@ -41,5 +43,6 @@ public class DeepCloning implements Cloneable {
 		System.out.println("name : " + d2.name);
 
 	}
+	
 
 }

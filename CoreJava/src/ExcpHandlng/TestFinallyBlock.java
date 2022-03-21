@@ -17,10 +17,10 @@ public class TestFinallyBlock {
 			while (data != -1) {
 
 				System.out.print((char) data);
-				data = input.read();
+				data = input.read();*/
 				
 				
-*/			int i=20;
+			int i=20;
 			int j=0;
 			int k = i/j;
 			
@@ -32,6 +32,7 @@ public class TestFinallyBlock {
 			
 			System.out.println(e.getMessage());
 			System.exit(0);
+			e.printStackTrace();
 		}
 
 		finally {

@@ -18,11 +18,11 @@ public class RegexEmail {
 
 		Scanner sc = new Scanner(r);
 
-		FileWriter writer = new FileWriter(target,true);
+		FileWriter writer = new FileWriter(target, true);
 		PrintWriter pw = new PrintWriter(writer);
 
 		String regex = "[\\w-]{1,100}@\\w{2,100}\\.\\w{2,8}$";
-		
+
 		System.out.println("The correct Email are succesfully sorted and pasted to the target folder.");
 
 		while (sc.hasNextLine()) {
@@ -34,15 +34,15 @@ public class RegexEmail {
 				pw.println(line);
 				System.out.println(line);
 
-			}
-			else {
+			} else {
 				System.err.println(line);
 			}
 		}
-		
+
 		pw.close();
 		writer.close();
 		sc.close();
 		r.close();
 	}
+
 }

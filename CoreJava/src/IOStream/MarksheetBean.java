@@ -17,6 +17,7 @@ public class MarksheetBean implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 
 	public int getMaths() {
 		return maths;

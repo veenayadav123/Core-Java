@@ -23,7 +23,7 @@ public class SortMarkSheet implements Comparable<SortMarkSheet> {
 	  return rollNo.compareTo(s.rollNo); }
 	 
      /*
-	 * @Override public int compareTo(SortMarkSheet s) {
+	 * @Override public int compareTo(SortMarkSheet s) { //For Integer value
 	 * 
 	 * if (marks > s.marks) {
 	 * 

@@ -18,6 +18,8 @@ public class CopyconCmnd {
 		BufferedReader in = new BufferedReader(isReader);
 
 		String line = in.readLine();
+		
+		
 
 		while (!line.equals("quit")) {
 
@@ -30,4 +32,5 @@ public class CopyconCmnd {
 
 		System.out.println("Inserted");
 	}
+	
 }

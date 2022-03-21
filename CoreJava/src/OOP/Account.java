@@ -27,9 +27,7 @@ public class Account {
 		this.balance = balance;
 	}
 	public void deposite(String name, int i) {
-		
-		
-	}
+}
 	
 	public static void main(String[] args) {
 		

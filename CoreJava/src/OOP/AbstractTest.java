@@ -11,8 +11,9 @@ public class AbstractTest extends AbstractClass {
 
 	@Override
 	public double area() {
-		// TODO Auto-generated method stub
+		System.out.println("Area");
 		return 0;
 	}
+	
 
 }

@@ -35,7 +35,7 @@ public class Email {
 
 				System.out.println(line);
 				line = br.readLine();
-				
+
 			} else {
 
 				System.err.println(line);
