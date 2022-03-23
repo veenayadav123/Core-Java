@@ -16,3 +16,4 @@ public class GroupThread1 extends Thread {
 		}
 	}
 }
+

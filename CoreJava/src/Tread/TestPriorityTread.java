@@ -9,7 +9,7 @@ public class TestPriorityTread {
 		PriorityTread t3 = new PriorityTread("Tread#C");
 
 		t1.setPriority(3);
-		t2.setPriority(1);
+		t2.setPriority(2);
 
 		t1.start();
 		t2.start();

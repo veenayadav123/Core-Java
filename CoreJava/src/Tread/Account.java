@@ -31,6 +31,7 @@ public class Account {
 	public void setBalance(int balance) {
 		databaseDelay();
 		this.balance = balance;
+		
 	}
 
 	public void databaseDelay() {
