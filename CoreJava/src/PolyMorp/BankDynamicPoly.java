@@ -11,10 +11,9 @@ public class BankDynamicPoly {
 
 		return "RBI";
 	}
-
 }
 
- class AxisBank extends BankDynamicPoly {
+class AxisBank extends BankDynamicPoly {
 
 	public double interestRate() {
 
@@ -51,5 +50,4 @@ class ICICIBank extends BankDynamicPoly {
 
 		return "ICICI Bank";
 	}
-} 
-
+}

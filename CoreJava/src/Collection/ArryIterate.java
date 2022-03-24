@@ -11,8 +11,8 @@ public class ArryIterate {
 
 	public static void main(String[] args) throws Exception {
 
-		//Collection v = new ArrayList();
-		
+		// Collection v = new ArrayList();
+
 		ArrayList v = new ArrayList();
 
 		v.add("Ram");
@@ -32,9 +32,9 @@ public class ArryIterate {
 
 			System.out.println(o);
 
-			//it.remove();
+			it.remove();
 
-			//System.out.println(it.next());
+			System.out.println(it.next());
 
 			if (it.hasNext()) {
 
@@ -42,14 +42,9 @@ public class ArryIterate {
 
 			}
 			v.add("Ram");
-			
 		}
-		
-		
 
-			System.out.println("i am removed" + v);
-		}
+		System.out.println("i am removed" + v);
+
 	}
-
-
-
+}

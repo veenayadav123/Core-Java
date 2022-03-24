@@ -23,7 +23,6 @@ public class EnumerationVector {
 
 				// v.add("Raman");
 				v.remove(0);
-
 			}
 		}
 

@@ -6,9 +6,9 @@ public class TestHasNequals {
 
 	public static void main(String[] args) throws Exception {
 
-		hasCodeNequals h1 = new hasCodeNequals("A2", "Shreya", 95);
+		hasCodeNequals h1 = new hasCodeNequals("A1", "Shreya", 95);
 
-		hasCodeNequals h2 = new hasCodeNequals("A2", "Sayna", 91);
+		hasCodeNequals h2 = new hasCodeNequals("A1", "Sayna", 91);
 
 		if (h1.hashCode() == h2.hashCode()) {
 
