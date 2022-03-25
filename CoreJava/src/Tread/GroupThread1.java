@@ -2,7 +2,7 @@ package Tread;
 
 public class GroupThread1 extends Thread {
 
-	public GroupThread1(ThreadGroup tg, String name) {
+	public GroupThread1(ThreadGrp tg, String name) {
 
 		super(tg, name);
 	}

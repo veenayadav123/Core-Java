@@ -4,7 +4,7 @@ public class TestGroupThread {
 
 	public static void main(String[] args) {
 
-		ThreadGroup team = new ThreadGroup("Team India");
+		ThreadGrp team = new ThreadGrp("Team India");
 
 		GroupThread1 p1 = new GroupThread1(team, "Jay");
 		GroupThread1 p2 = new GroupThread1(team, "Vijay");

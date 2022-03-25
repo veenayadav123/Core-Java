@@ -12,11 +12,16 @@ public class WithRunable implements Runnable {
 
 	}
 
-	@Override
-	public void run() {
+	public String getName() {
 
-		System.out.println("Hello from Tread !");
-
+		return name;
 	}
 
+	
+	  @Override public void run() {
+	  
+	  System.out.println("Hello from Tread !");
+	  
+	  }
+	 
 }

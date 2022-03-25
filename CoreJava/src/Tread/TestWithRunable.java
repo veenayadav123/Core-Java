@@ -13,6 +13,9 @@ public static void main(String[] args) {
 		th.start();
 		
 		th1.start();
+		
+		System.out.println(t1.getName());
+		
 	}
 
 }

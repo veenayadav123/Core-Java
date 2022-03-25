@@ -11,10 +11,10 @@ public class Account {
 		System.out.println(msg + " new balance " + bal);
 	}
 
-	public synchronized void withdraw(String msg, int amt) {//Block synchronization
+	public synchronized void withdraw(String msg, int amt) {
 
 		int bal = 0;
-		synchronized (this) {
+		synchronized (this) {     //Block synchronization
 			bal = getBalance() - amt;
 			setBalance(bal);
 		}

@@ -18,5 +18,4 @@ public class WithTread extends Thread {
 
 		}
 	}
-
 }
