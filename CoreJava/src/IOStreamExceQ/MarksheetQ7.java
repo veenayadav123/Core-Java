@@ -1,4 +1,4 @@
-package IOStreamExceQ;
+package iOStreamExceQ;
 
 import java.io.Externalizable;
 import java.io.IOException;

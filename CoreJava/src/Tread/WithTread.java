@@ -1,4 +1,4 @@
-package Tread;
+package tread;
 
 public class WithTread extends Thread {
 

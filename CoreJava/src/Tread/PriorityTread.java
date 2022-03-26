@@ -1,4 +1,4 @@
-package Tread;
+package tread;
 
 public class PriorityTread extends Thread {
 

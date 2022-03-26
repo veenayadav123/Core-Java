@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 public class InhertncShape {
 	public static void main(String[] args) {

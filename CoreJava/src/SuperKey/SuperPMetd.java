@@ -1,4 +1,4 @@
-package SuperKey;
+package superKey;
 
 public class SuperPMetd {
 

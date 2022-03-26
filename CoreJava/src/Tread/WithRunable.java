@@ -1,6 +1,6 @@
-package Tread;
+package tread;
 
-import Constructor1.Hello;
+import constructor1.Hello;
 
 public class WithRunable implements Runnable {
 

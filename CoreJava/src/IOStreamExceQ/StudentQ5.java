@@ -1,4 +1,4 @@
-package IOStreamExceQ;
+package iOStreamExceQ;
 
 import java.io.Externalizable;
 import java.io.FileInputStream;
@@ -11,7 +11,7 @@ import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-import IOStream.Externalizable1;
+import iOStream.Externalizable1;
 
 public class StudentQ5 implements Externalizable {
 

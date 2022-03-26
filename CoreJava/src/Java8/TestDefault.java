@@ -1,4 +1,4 @@
-package Java8;
+package java8;
 
 //import Java8.DefaultMethod.TestDefault;
 

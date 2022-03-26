@@ -1,4 +1,4 @@
-package IOStream;
+package iOStream;
 
 import java.io.DataInputStream;
 import java.io.FileInputStream;

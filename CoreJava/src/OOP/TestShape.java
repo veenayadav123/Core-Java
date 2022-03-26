@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 public class TestShape implements TestInterface , TestIN{
 

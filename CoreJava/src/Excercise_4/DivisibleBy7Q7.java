@@ -1,4 +1,4 @@
-package Excercise_4;
+package excercise_4;
 
 public class DivisibleBy7Q7 {
 	public static void main(String[] args) {

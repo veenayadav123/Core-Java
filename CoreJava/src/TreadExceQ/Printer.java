@@ -1,4 +1,4 @@
-package TreadExceQ;
+package treadExceQ;
 
 public class Printer {
 

@@ -1,4 +1,4 @@
-package Clonning;
+package clonning;
 
 public class DeepCloning implements Cloneable {
 

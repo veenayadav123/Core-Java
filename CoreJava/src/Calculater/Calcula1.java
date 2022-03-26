@@ -1,4 +1,4 @@
-package Calculater;
+package calculater;
 
 public class Calcula1 {
 	public static void main(String[] args) throws Exception {

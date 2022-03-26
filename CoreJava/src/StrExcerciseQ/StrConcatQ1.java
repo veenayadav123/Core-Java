@@ -1,4 +1,4 @@
-package StrExcerciseQ;
+package strExcerciseQ;
 
 public class StrConcatQ1 {
 	public static void main(String[] args) {

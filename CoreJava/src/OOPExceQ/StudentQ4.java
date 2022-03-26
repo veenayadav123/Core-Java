@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class StudentQ4 implements RichManQ4 {
 

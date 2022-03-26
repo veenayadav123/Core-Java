@@ -1,4 +1,4 @@
-package VariabNOpertr;
+package variabNOpertr;
 
 public class StrBuilder {
 

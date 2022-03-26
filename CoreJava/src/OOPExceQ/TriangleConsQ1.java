@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class TriangleConsQ1 extends ShapConsQ1 {
 

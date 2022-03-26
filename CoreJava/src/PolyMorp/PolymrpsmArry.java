@@ -1,8 +1,8 @@
-package PolyMorp;
+package polyMorp;
 
 import javax.swing.text.html.parser.Parser;
 
-import OOP.Shape;
+import oop.Shape;
 
 public class PolymrpsmArry {
 

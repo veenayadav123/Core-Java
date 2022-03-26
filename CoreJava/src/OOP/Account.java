@@ -1,6 +1,6 @@
-package OOP;
+package oop;
 
-import Tread.RacingCondThread;
+import tread.RacingCondThread;
 
 public class Account {
 

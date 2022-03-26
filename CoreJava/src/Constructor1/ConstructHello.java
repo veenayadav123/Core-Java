@@ -1,4 +1,4 @@
-package Constructor1;
+package constructor1;
 
 public class ConstructHello {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 public class Shape1 {
 	private String color = null;

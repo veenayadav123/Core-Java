@@ -1,4 +1,4 @@
-package PolyMorp;
+package polyMorp;
 
 public class Test {
 	

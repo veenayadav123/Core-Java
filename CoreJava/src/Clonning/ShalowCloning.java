@@ -1,4 +1,4 @@
-package Clonning;
+package clonning;
 
 public class ShalowCloning implements Cloneable {
 

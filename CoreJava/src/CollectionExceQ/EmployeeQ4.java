@@ -1,4 +1,4 @@
-package CollectionExceQ;
+package collectionExceQ;
 
 public class EmployeeQ4 {
 	

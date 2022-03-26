@@ -1,6 +1,6 @@
-package InheritncOverriding;
+package inheritncOverriding;
 
-import Inheritance.Shape;
+import inheritance.Shape;
 
 public class Rectangle extends Shape {
 

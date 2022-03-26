@@ -1,4 +1,4 @@
-package ExceptnExerQ;
+package exceptnExerQ;
 
 public class TestPropagationQ6 {
 

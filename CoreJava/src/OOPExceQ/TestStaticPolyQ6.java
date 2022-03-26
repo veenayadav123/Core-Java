@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class TestStaticPolyQ6 extends StaticPolyQ6{
 

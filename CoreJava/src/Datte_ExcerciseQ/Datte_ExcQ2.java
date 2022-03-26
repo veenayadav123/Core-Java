@@ -1,4 +1,4 @@
-package Datte_ExcerciseQ;
+package datte_ExcerciseQ;
 
 import java.time.LocalDate;
 import java.util.Calendar;

@@ -1,4 +1,4 @@
-package Datte_ExcerciseQ;
+package datte_ExcerciseQ;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

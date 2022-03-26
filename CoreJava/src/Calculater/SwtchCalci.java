@@ -1,4 +1,4 @@
-package Calculater;
+package calculater;
 
 public class SwtchCalci {
 	public static void main(String[] args) {

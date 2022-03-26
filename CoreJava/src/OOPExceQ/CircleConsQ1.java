@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class CircleConsQ1 extends ShapConsQ1 {
 

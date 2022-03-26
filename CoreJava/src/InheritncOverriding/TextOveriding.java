@@ -1,8 +1,8 @@
-package InheritncOverriding;
+package inheritncOverriding;
 
-import Inheritance.Circle;
-import Inheritance.Rectangle;
-import Inheritance.Triangle;
+import inheritance.Circle;
+import inheritance.Rectangle;
+import inheritance.Triangle;
 
 public class TextOveriding {
 

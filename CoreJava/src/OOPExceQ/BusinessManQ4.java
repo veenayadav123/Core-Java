@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class BusinessManQ4 implements RichManQ4 {
 

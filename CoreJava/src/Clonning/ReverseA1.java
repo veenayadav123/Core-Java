@@ -1,4 +1,4 @@
-package Clonning;
+package clonning;
 
 import java.util.ArrayList;
 import java.util.Stack;

@@ -1,4 +1,4 @@
-package ExcpHandlng;
+package excpHandlng;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,35 +11,32 @@ public class TestFinallyBlock {
 
 		InputStream input = null;
 		try {
-			/*input = new FileInputStream("F:\\Text File\\a.txt");
+			/*
+			 * input = new FileInputStream("F:\\Text File\\a.txt");
+			 * 
+			 * int data = input.read(); while (data != -1) {
+			 * 
+			 * System.out.print((char) data); data = input.read();
+			 */
 
-			int data = input.read();
-			while (data != -1) {
+			int i = 20;
+			int j = 0;
+			int k = i / j;
 
-				System.out.print((char) data);
-				data = input.read();*/
-				
-				
-			int i=20;
-			int j=0;
-			int k = i/j;
-			
 			System.out.println(k);
-			
+
 		}
 
 		catch (Exception e) {
-			
+
 			System.out.println(e.getMessage());
 			System.exit(0);
 			e.printStackTrace();
 		}
 
 		finally {
-			
+
 			System.out.println("Finally Block");
-						}
 		}
-
 	}
-
+}

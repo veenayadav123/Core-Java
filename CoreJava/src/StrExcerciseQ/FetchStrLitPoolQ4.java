@@ -1,4 +1,4 @@
-package StrExcerciseQ;
+package strExcerciseQ;
 
 public class FetchStrLitPoolQ4 {
 	

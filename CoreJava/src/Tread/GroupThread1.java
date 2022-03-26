@@ -1,4 +1,4 @@
-package Tread;
+package tread;
 
 public class GroupThread1 extends Thread {
 

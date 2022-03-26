@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class RactnglConsQ1 extends ShapConsQ1 {
 

@@ -1,5 +1,5 @@
 
-package OOPExceQ;
+package oopExceQ;
 
 public interface RichManQ4 {
 	

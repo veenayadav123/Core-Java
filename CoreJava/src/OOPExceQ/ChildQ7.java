@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class ChildQ7 extends StaticPolyQ6 {
 

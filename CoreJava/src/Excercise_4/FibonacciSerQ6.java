@@ -1,4 +1,4 @@
-package Excercise_4;
+package excercise_4;
 
 public class FibonacciSerQ6 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package CollectionExceQ;
+package collectionExceQ;
 
 import java.util.ArrayList;
 import java.util.Collections;

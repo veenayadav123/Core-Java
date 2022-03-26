@@ -1,4 +1,4 @@
-package InheritncOverriding;
+package inheritncOverriding;
 
 public class CircleArryargs extends ShapArryargs {
 

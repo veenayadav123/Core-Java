@@ -1,4 +1,4 @@
-package OOPExceQ;
+package oopExceQ;
 
 public class RectangleQ1 extends ShapeQ1 {
 	

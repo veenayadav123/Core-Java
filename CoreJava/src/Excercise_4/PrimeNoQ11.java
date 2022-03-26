@@ -1,4 +1,4 @@
-package Excercise_4;
+package excercise_4;
 
 public class PrimeNoQ11 {
 	public static void main(String[] args) {

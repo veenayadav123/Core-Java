@@ -1,4 +1,4 @@
-package OOP;
+package oop;
 
 public class CircleEx extends Shape1 {
 

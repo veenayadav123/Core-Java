@@ -1,4 +1,4 @@
-package TreadExceQ;
+package treadExceQ;
 
 public class ConsumerQ2 extends Producer_Q2 implements Runnable {
 
